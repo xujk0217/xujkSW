@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "LawHelper/wsgi.py",
+        "src": "xujkSW/wsgi.py",
         "use": "@vercel/python"
       }
     ],
@@ -13,7 +13,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "/LawHelper/wsgi.py"
+        "dest": "/xujkSW/wsgi.py"
       }
     ]
   }
