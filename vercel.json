@@ -8,10 +8,6 @@
     ],
     "routes": [
       {
-        "src": "/app-ads.txt",
-        "dest": "/public/app-ads.txt"
-      },
-      {
         "src": "/static/(.*)",
         "dest": "/static/$1"
       },
