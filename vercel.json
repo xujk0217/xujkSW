@@ -8,6 +8,10 @@
     ],
     "routes": [
       {
+        "src": "/app-ads.txt",
+        "dest": "/app-ads.txt"
+      },  
+      {
         "src": "/static/(.*)",
         "dest": "/static/$1"
       },
@@ -15,8 +19,5 @@
         "src": "/(.*)",
         "dest": "/xjkSW/wsgi.py"
       }
-    ],
-      "rewrites": [
-      { "source": "/app-ads.txt", "destination": "/app-ads.txt" }
     ]
   }
