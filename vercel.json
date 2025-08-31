@@ -4,9 +4,17 @@
       {
         "src": "wsgi.py",
         "use": "@vercel/python"
+      },
+      {
+        "src": "api/app-ads.txt.py",
+        "use": "@vercel/python"
       }
     ],
     "routes": [
+      {
+        "src": "/app-ads.txt",
+        "dest": "/api/app-ads.txt.py"
+      },
       {
         "src": "/static/(.*)",
         "dest": "/static/$1"
