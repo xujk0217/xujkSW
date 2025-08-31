@@ -17,7 +17,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "/xjkSW/wsgi.py"
+        "dest": "/wsgi.py"
       }
     ]
   }
