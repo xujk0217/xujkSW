@@ -8,9 +8,17 @@
       {
         "src": "api/app-ads.txt.py",
         "use": "@vercel/python"
+      },
+      {
+        "src": "api/test.py",
+        "use": "@vercel/python"
       }
     ],
     "routes": [
+      {
+        "src": "/test",
+        "dest": "/api/test.py"
+      },
       {
         "src": "/app-ads.txt",
         "dest": "/api/app-ads.txt.py"
