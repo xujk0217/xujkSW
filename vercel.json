@@ -2,10 +2,6 @@
     "version": 2,
     "builds": [
       {
-        "src": "wsgi.py",
-        "use": "@vercel/python"
-      },
-      {
         "src": "api/app-ads.txt.py",
         "use": "@vercel/python"
       },
@@ -24,12 +20,8 @@
         "dest": "/api/app-ads.txt.py"
       },
       {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
-      {
         "src": "/(.*)",
-        "dest": "/wsgi.py"
+        "dest": "/api/test.py"
       }
     ]
   }
