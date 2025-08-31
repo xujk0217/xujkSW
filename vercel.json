@@ -15,5 +15,8 @@
         "src": "/(.*)",
         "dest": "/xjkSW/wsgi.py"
       }
+    ],
+      "rewrites": [
+      { "source": "/app-ads.txt", "destination": "/app-ads.txt" }
     ]
   }
