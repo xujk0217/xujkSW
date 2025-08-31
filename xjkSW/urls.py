@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from mainApp.views import main
+from django.views.static import serve
+from django.conf import settings
+from mainApp.views import main, app_ads_txt
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main),
+    path('app-ads.txt', app_ads_txt),
 ]
