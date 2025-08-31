@@ -16,12 +16,12 @@
     ],
     "routes": [
       {
-        "src": "/test",
-        "dest": "/api/test.py"
-      },
-      {
         "src": "/app-ads.txt",
         "dest": "/api/app-ads.txt.py"
+      },
+      {
+        "src": "/test",
+        "dest": "/api/test.py"
       },
       {
         "src": "/(.*)",
