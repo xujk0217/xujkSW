@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/app-ads.txt",
-        "dest": "/public/app-ads.txt"
+        "dest": "/app-ads.txt"
       },
       {
         "src": "/static/(.*)",
